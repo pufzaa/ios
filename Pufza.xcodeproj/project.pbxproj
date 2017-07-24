@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		0295F5F31F25E59B00506A28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295F5F21F25E59B00506A28 /* AppDelegate.swift */; };
-		0295F5F51F25E59B00506A28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295F5F41F25E59B00506A28 /* ViewController.swift */; };
 		0295F5F81F25E59B00506A28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0295F5F61F25E59B00506A28 /* Main.storyboard */; };
 		0295F5FA1F25E59B00506A28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0295F5F91F25E59B00506A28 /* Assets.xcassets */; };
 		0295F5FD1F25E59B00506A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0295F5FB1F25E59B00506A28 /* LaunchScreen.storyboard */; };
+		0295F6061F25E60200506A28 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295F6051F25E60200506A28 /* SelectionViewController.swift */; };
+		0295F6091F25E65A00506A28 /* PizzaTopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295F6081F25E65900506A28 /* PizzaTopping.swift */; };
+		0295F60D1F25E73A00506A28 /* ToppingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295F60C1F25E73A00506A28 /* ToppingImage.swift */; };
+		0295F6101F25E7EF00506A28 /* PizzaToppingGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295F60F1F25E7EF00506A28 /* PizzaToppingGroup.swift */; };
+		0295F6121F25E8F400506A28 /* PizzaToppingsMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295F6111F25E8F400506A28 /* PizzaToppingsMockData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0295F5EF1F25E59B00506A28 /* Pufza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pufza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0295F5F21F25E59B00506A28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0295F5F41F25E59B00506A28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0295F5F71F25E59B00506A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0295F5F91F25E59B00506A28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0295F5FC1F25E59B00506A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0295F5FE1F25E59B00506A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0295F6051F25E60200506A28 /* SelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		0295F6081F25E65900506A28 /* PizzaTopping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaTopping.swift; sourceTree = "<group>"; };
+		0295F60C1F25E73A00506A28 /* ToppingImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToppingImage.swift; sourceTree = "<group>"; };
+		0295F60F1F25E7EF00506A28 /* PizzaToppingGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaToppingGroup.swift; sourceTree = "<group>"; };
+		0295F6111F25E8F400506A28 /* PizzaToppingsMockData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaToppingsMockData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,58 @@
 		0295F5F11F25E59B00506A28 /* Pufza */ = {
 			isa = PBXGroup;
 			children = (
-				0295F5F21F25E59B00506A28 /* AppDelegate.swift */,
-				0295F5F41F25E59B00506A28 /* ViewController.swift */,
+				0295F6111F25E8F400506A28 /* PizzaToppingsMockData.swift */,
+				0295F6041F25E5CD00506A28 /* Supporting files */,
 				0295F5F61F25E59B00506A28 /* Main.storyboard */,
+				0295F6071F25E61E00506A28 /* ViewController */,
+				0295F60A1F25E65F00506A28 /* Model */,
+			);
+			path = Pufza;
+			sourceTree = "<group>";
+		};
+		0295F6041F25E5CD00506A28 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				0295F5F21F25E59B00506A28 /* AppDelegate.swift */,
 				0295F5F91F25E59B00506A28 /* Assets.xcassets */,
 				0295F5FB1F25E59B00506A28 /* LaunchScreen.storyboard */,
 				0295F5FE1F25E59B00506A28 /* Info.plist */,
 			);
-			path = Pufza;
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		0295F6071F25E61E00506A28 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0295F6051F25E60200506A28 /* SelectionViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		0295F60A1F25E65F00506A28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0295F60B1F25E6BE00506A28 /* Pizza */,
+				0295F60E1F25E74000506A28 /* Common */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0295F60B1F25E6BE00506A28 /* Pizza */ = {
+			isa = PBXGroup;
+			children = (
+				0295F6081F25E65900506A28 /* PizzaTopping.swift */,
+				0295F60F1F25E7EF00506A28 /* PizzaToppingGroup.swift */,
+			);
+			name = Pizza;
+			sourceTree = "<group>";
+		};
+		0295F60E1F25E74000506A28 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0295F60C1F25E73A00506A28 /* ToppingImage.swift */,
+			);
+			name = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +189,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0295F5F51F25E59B00506A28 /* ViewController.swift in Sources */,
+				0295F6121F25E8F400506A28 /* PizzaToppingsMockData.swift in Sources */,
+				0295F6091F25E65A00506A28 /* PizzaTopping.swift in Sources */,
+				0295F6101F25E7EF00506A28 /* PizzaToppingGroup.swift in Sources */,
+				0295F60D1F25E73A00506A28 /* ToppingImage.swift in Sources */,
 				0295F5F31F25E59B00506A28 /* AppDelegate.swift in Sources */,
+				0295F6061F25E60200506A28 /* SelectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +360,7 @@
 				0295F6031F25E59B00506A28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

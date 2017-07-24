@@ -31,6 +31,51 @@ class PizzaToppingsMockData{
         toppingList.append(
             PizzaTopping(name: "ananas",
                          image: ToppingImage(active: "ananas", highlighted: "ananas-highlighted", disabled: "ananas-disabled"),
+                         group: .large, numberOfTimesSelected: 0))
+        
+        toppingList.append(
+            PizzaTopping(name: "ananas",
+                         image: ToppingImage(active: "ananas", highlighted: "ananas-highlighted", disabled: "ananas-disabled"),
+                         group: .large, numberOfTimesSelected: 0))
+        
+        toppingList.append(
+            PizzaTopping(name: "ananas",
+                         image: ToppingImage(active: "ananas", highlighted: "ananas-highlighted", disabled: "ananas-disabled"),
+                         group: .large, numberOfTimesSelected: 0))
+        
+        toppingList.append(
+            PizzaTopping(name: "ananas",
+                         image: ToppingImage(active: "ananas", highlighted: "ananas-highlighted", disabled: "ananas-disabled"),
+                         group: .large, numberOfTimesSelected: 0))
+        
+        toppingList.append(
+            PizzaTopping(name: "ananas",
+                         image: ToppingImage(active: "ananas", highlighted: "ananas-highlighted", disabled: "ananas-disabled"),
+                         group: .large, numberOfTimesSelected: 0))
+        
+        toppingList.append(
+            PizzaTopping(name: "ananas",
+                         image: ToppingImage(active: "ananas", highlighted: "ananas-highlighted", disabled: "ananas-disabled"),
+                         group: .large, numberOfTimesSelected: 0))
+        
+        toppingList.append(
+            PizzaTopping(name: "ananas",
+                         image: ToppingImage(active: "ananas", highlighted: "ananas-highlighted", disabled: "ananas-disabled"),
+                         group: .large, numberOfTimesSelected: 0))
+        
+        toppingList.append(
+            PizzaTopping(name: "ananas",
+                         image: ToppingImage(active: "ananas", highlighted: "ananas-highlighted", disabled: "ananas-disabled"),
+                         group: .large, numberOfTimesSelected: 0))
+        
+        toppingList.append(
+            PizzaTopping(name: "ananas",
+                         image: ToppingImage(active: "ananas", highlighted: "ananas-highlighted", disabled: "ananas-disabled"),
+                         group: .large, numberOfTimesSelected: 0))
+        
+        toppingList.append(
+            PizzaTopping(name: "ananas",
+                         image: ToppingImage(active: "ananas", highlighted: "ananas-highlighted", disabled: "ananas-disabled"),
                          group: .small, numberOfTimesSelected: 0))
         
         toppingList.append(
